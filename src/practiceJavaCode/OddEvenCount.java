@@ -2,18 +2,18 @@ package practiceJavaCode;
 
 public class OddEvenCount {
 	public static void main(String Args[]) {
-		int[] A = { 1, 2, 3, 4, 5, 6, 7, 8, 910 };
-
-		int oddCount = 0;
-		int evenCount = 0;
-		for (int num : A)
-			if (num % 2 == 0) {
-				oddCount++;
-			} else {
+		int []  A= {11,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17};
+		int evenCount=0;
+		int oddCount=0;
+		for(int Num : A) {
+			if (Num % 2 == 0) {
 				evenCount++;
+			}else {
+				oddCount++;
 			}
-		System.out.println("Total count :"+ oddCount);
-		System.out.println("Total count :"+ evenCount);
+		}
+		System.out.println(evenCount);
+		System.out.println(oddCount);
 	}
 
 }
