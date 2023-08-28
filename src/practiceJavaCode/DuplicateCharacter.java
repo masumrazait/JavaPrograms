@@ -10,6 +10,7 @@ public class DuplicateCharacter {
 		System.out.println("Enter Duplicate StringCharacter:");
 		String DuplicateCharecrter = sc.nextLine();
 		String original = removeDuplicateCharecrter(DuplicateCharecrter);
+
 		System.out.println("String with duplicates removed:" + original);
 
 	}
