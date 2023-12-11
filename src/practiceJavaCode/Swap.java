@@ -6,7 +6,7 @@ public class Swap {
 
 	public static void main(String[] args) {
 		int x,y,temp;
-		System.out.println("Enter X and Y Valiue:");
+		System.out.println("Enter X and Y Value:");
 		
 		Scanner in =new Scanner(System.in);
 		x=in.nextInt();
