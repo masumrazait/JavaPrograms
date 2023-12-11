@@ -11,8 +11,17 @@ public class ReverseStrings {
 		System.out.println("Enter the userInput:");
 		
 		String userInput=sc.nextLine();
-		StringBuilder rev=new StringBuilder(userInput);
+		//1st Way
+		/*StringBuilder rev=new StringBuilder(userInput);
 		rev.reverse();
+		System.out.println(rev);*/
+		
+		//2nd Way 
+		String rev="";
+		int len=userInput.length();
+		for(int i=len-1;i>=0;i--) {
+			rev=rev+userInput.charAt(i);
+		}
 		System.out.println(rev);
 		
 
