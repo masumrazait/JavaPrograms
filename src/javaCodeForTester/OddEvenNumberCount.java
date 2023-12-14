@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class OddEvenNumberCount {
 	public static void main(String Args[]) {
-
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = sc.nextInt();
@@ -19,8 +18,7 @@ public class OddEvenNumberCount {
 			}
 			num = num / 10;
 		}
-		System.out.println("Even number count is: " + even_count);
-		System.out.println("Odd number count is: " + odd_count);
+		System.out.println("totla even numver" + even_count);
+		System.out.println("totla odd numver" + odd_count);
 	}
-
 }

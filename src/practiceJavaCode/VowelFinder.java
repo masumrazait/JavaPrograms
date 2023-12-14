@@ -11,8 +11,7 @@ public class VowelFinder {
 		String vowel = "AEIOUaeiou";
 		for (char c : inputString.toCharArray()) {
 			if (vowel.indexOf(c) != -1)
-				System.out.println("Vowel is :" +"\s"+ c);
+				System.out.println("Vowel is :" + "\s" + c);
 		}
-
 	}
 }

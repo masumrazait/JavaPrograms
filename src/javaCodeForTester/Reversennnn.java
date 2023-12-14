@@ -15,7 +15,5 @@ public class Reversennnn {
 			num = num / 10;
 		}
 		System.out.println("Reverse Number : " + rev);
-
 	}
-
 }

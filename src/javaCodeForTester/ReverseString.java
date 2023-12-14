@@ -16,12 +16,12 @@ public class ReverseString {
 		 */
 		
 		// 2nd Way
-		String rev = "";
-		int len = userInput.length();
-		for (int i = len - 1; i >= 0; i--) {
-			rev = rev + userInput.charAt(i);
-		}
-		System.out.println(rev);
+		String rev="";
+		String original=userInput;
+		int len=userInput.length();
+		for(int i=len-1;i>=0;i--) {
+			rev=rev+userInput.charAt(i);
+		}System.out.println(rev);
 	}
 
 }
