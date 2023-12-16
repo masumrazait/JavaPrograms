@@ -11,8 +11,8 @@ public class Vowel {
 		String UserInput = sc.nextLine();
 		String vowel = "A E I O U a e i o u";
 		for (char c : UserInput.toCharArray()) {
-			if (vowel.indexOf(c) != -1) {
-				System.out.println("Vowel is :" + "\s" + c);
+			if (vowel.indexOf(c)!=-1) {
+				System.out.println(c);
 			}
 		}
 	}
