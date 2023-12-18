@@ -7,12 +7,15 @@ import java.util.Set;
 public class FindUniqLatter {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter hte String :");
-		String inputString = sc.nextLine();
-		Set<Character> uniqueLetters = new HashSet<>();
-		for (char c : inputString.toCharArray())
+		System.out.println("Enter the String: ");
+		String UserInput = sc.nextLine().toLowerCase();
+		Set<Character> uniq = new HashSet<>();
+		for (char c : UserInput.toCharArray()) {
 			if (Character.isLetter(c))
-				uniqueLetters.add(c);
-		System.out.println("Unique letters: " + uniqueLetters);
+				uniq.add(c);
+
+		}
+		System.out.println("Uniq letter is : " + uniq);
+
 	}
 }
