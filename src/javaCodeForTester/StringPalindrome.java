@@ -15,7 +15,7 @@ public class StringPalindrome {
 		for (int i = len - 1; i >= 0; i--) {
 			rev = rev + UserInput.charAt(i);
 		}
-		if (original.equalsIgnoreCase(rev)) {
+		if (original.equals(rev)) {
 			System.out.println(rev + " String is Palindrome.");
 		} else {
 			System.out.println(rev + " String is not Palindrome.");

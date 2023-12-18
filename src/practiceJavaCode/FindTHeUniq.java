@@ -16,7 +16,7 @@ public class FindTHeUniq {
 			if(Character.isLetter(c))
 				uniCharacters.add(c);
 		uniCharacters.toArray();
-		System.out.println("uniq charecter is:" + uniCharacters);
+		System.out.println("Uniq Character is:" + uniCharacters);
 	}
 
 }
