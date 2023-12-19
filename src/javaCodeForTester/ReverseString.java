@@ -9,19 +9,15 @@ public class ReverseString {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the word:");
 		String userInput = sc.nextLine();
-
 		/*
-		 StringBuilder s=new StringBuilder(rev); 
-		 s.reverse();
+		 * StringBuilder rev=new StringBuilder(userInput); rev.reverse();
+		 * System.out.println(rev);
 		 */
-		
-		// 2nd Way
-		String rev="";
-		String original=userInput;
-		int len=userInput.length();
-		for(int i=len-1;i>=0;i--) {
-			rev=rev+userInput.charAt(i);
-		}System.out.println(rev);
+		String rev = "";
+		int len = userInput.length();
+		for (int i = len - 1; i >= 0; i--) {
+			rev = rev + userInput.charAt(i);
+		}
+		System.out.println(rev);
 	}
-
 }

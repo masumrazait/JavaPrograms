@@ -7,7 +7,7 @@ public class Tringle {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Ente row: ");
+		System.out.println("Enter row: ");
 		int row = sc.nextInt();
 		for (int i = 1; i <= row; i++) {
 			for (int j = 1; j <= row - i; j++) {
@@ -19,5 +19,4 @@ public class Tringle {
 			System.out.println();
 		}
 	}
-
 }

@@ -18,7 +18,7 @@ public class PalindromeNumber {
 		System.out.println(orignal_num+" num is palindrom");
 		
 	}else {
-		System.out.println(orignal_num+" num is not palindrom");
+		System.out.println(rev+" num is not palindrom");
 	}
 
 	}

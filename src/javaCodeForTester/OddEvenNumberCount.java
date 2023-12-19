@@ -7,8 +7,8 @@ public class OddEvenNumberCount {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = sc.nextInt();
-		int odd_count = 0;
 		int even_count = 0;
+		int odd_count = 0;
 		while (num > 0) {
 			int rem = num % 10;
 			if (rem % 2 == 0) {
@@ -18,7 +18,7 @@ public class OddEvenNumberCount {
 			}
 			num = num / 10;
 		}
-		System.out.println("totla even numver" + even_count);
-		System.out.println("totla odd numver" + odd_count);
+		System.out.println("Even number count: " + even_count);
+		System.out.println("Odd number count: " + odd_count);
 	}
 }

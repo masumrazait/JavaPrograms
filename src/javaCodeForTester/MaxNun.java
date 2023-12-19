@@ -1,9 +1,15 @@
 package javaCodeForTester;
 
+import java.util.Scanner;
+
 public class MaxNun {
 	public static void main(String arg[]) {
-		int a = 10, b = 22, c;
-		c = Math.max(a, b);
-		System.out.println(c);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number first number:");
+		int n1=sc.nextInt();
+		System.out.println("Enter the number first number:");
+		int n2=sc.nextInt();
+		int c=Math.max(n1, n2);
+		System.out.println("greater nuumberr is : "+c);
 	}
 }

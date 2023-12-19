@@ -18,7 +18,7 @@ public class Palidrome {
 			System.out.println(original_num +"num palindrom");
 		}else
 		{
-			System.out.println(original_num+" not pa");
+			System.out.println(rev+" not pa");
 		}
 
 	}
