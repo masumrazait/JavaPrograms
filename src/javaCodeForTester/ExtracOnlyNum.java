@@ -8,8 +8,8 @@ public class ExtracOnlyNum {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Alphanumeric: ");
-		String UserInput=sc.nextLine();
-		String digit=UserInput.replaceAll("[^0-9]", "");
+		String userInput=sc.nextLine();
+		String digit=userInput.replaceAll("[^0-9]", "");
 		System.out.println(digit);
 	}
 }
