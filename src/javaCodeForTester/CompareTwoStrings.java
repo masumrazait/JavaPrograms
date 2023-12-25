@@ -10,12 +10,12 @@ public class CompareTwoStrings {
 		System.out.println("Enter the First String: ");
 		String FirstString = sc.nextLine();
 		System.out.println("Enter the Second String: ");
-		String Second = sc.nextLine();
-		if(FirstString.equalsIgnoreCase(Second)) {
+		String SecondString = sc.nextLine();
+		if (FirstString.equalsIgnoreCase(SecondString)) {
 			System.out.println("First String is equal to Second String");
-		}else {
-			System.out.println("String is not equal:");
+		} else {
+			System.out.println("First String is not equal to Second String");
 		}
-		
+
 	}
 }

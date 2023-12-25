@@ -9,11 +9,10 @@ public class FindUniqLatter {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String : ");
 		String Userinput = sc.nextLine().toLowerCase();
-		Set<Character> uniqCharecter = new HashSet<>();
-		for (char c : Userinput.toCharArray()) {
+		Set<Character> uniq = new HashSet<>();
+		for (char c : Userinput.toCharArray())
 			if (Character.isLetter(c))
-				uniqCharecter.add(c);
-		}
-		System.out.println(uniqCharecter);
+				uniq.add(c);
+		System.out.println("The uniq string is : " + uniq);
 	}
 }
