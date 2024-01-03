@@ -8,7 +8,7 @@ public class ExtracOnlyNum {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Alphanumeric: ");
 		String UserInput = sc.nextLine();
-		String digital = (UserInput.replaceAll("[^A-z]", ""));
-		System.out.println(digital);
+		String Digital=(UserInput.replaceAll("[^0-9]", ""));
+		System.out.println(Digital);
 	}
 }
