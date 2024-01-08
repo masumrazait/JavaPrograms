@@ -1,6 +1,5 @@
 package practiceJavaCode;
 
-import java.security.DrbgParameters.NextBytes;
 import java.util.Scanner;
 
 public class Swap1 {
