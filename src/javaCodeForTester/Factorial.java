@@ -7,10 +7,10 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the number:");
 		int num = sc.nextInt();
-		long factorial = 1;
+		long Factorial = 1;
 		for (int i = 1; i <= num; i++) {
-			factorial = factorial * i;
+			Factorial = Factorial * i;
 		}
-		System.out.println(factorial);
+		System.out.println(Factorial);
 	}
 }

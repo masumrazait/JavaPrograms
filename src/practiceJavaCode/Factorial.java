@@ -9,11 +9,9 @@ public class Factorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number");
 		int num = sc.nextInt();
-		long factorial = 1;
-
-		for (int i = 1; i <= num; i++) {
-			factorial = factorial * i;
-
+		long factorial=1;
+		for(int i=1;i<=num;i++) {
+			factorial=factorial*i;
 		}
 		System.out.println(factorial);
 	}

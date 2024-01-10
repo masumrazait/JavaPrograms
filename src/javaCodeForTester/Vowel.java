@@ -8,7 +8,6 @@ public class Vowel {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the word:");
 		String UserInput = sc.nextLine();
-		String AfterVowel="";
 		String Vowel = "A E I O U a e i o u";
 		for (char c : UserInput.toCharArray()) {
 			if (Vowel.indexOf(c) != -1) {

@@ -8,14 +8,12 @@ public class LeapYearChecker {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter The Year:");
-
 		int year = scanner.nextInt();
 		if (isLeapYear(year)) {
 			System.out.println("Year is LeapYear");
 		} else {
 			System.out.println("not a leap year:");
 		}
-		scanner.close();
 	}
 
 	public static boolean isLeapYear(int year) {
@@ -24,6 +22,5 @@ public class LeapYearChecker {
 		} else {
 			return false;
 		}
-
 	}
 }

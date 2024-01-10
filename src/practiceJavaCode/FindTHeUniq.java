@@ -10,13 +10,12 @@ public class FindTHeUniq {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string: ");
-		String userInput=sc.nextLine();
-		Set<Character>uniCharacters=new HashSet<>();
-		for(char c : userInput.toCharArray())
-			if(Character.isLetter(c))
-				uniCharacters.add(c);
-		uniCharacters.toArray();
-		System.out.println("Uniq Character is:" + uniCharacters);
+		String userInput = sc.nextLine().toLowerCase();
+		Set<Character> uniqCharacters = new HashSet<>();
+		for (char c : userInput.toCharArray()) {
+			if (Character.isLetter(c))
+				uniqCharacters.add(c);
+		}
+		System.out.println(uniqCharacters);
 	}
-
 }
