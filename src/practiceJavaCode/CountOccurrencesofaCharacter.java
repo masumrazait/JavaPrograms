@@ -7,15 +7,16 @@ public class CountOccurrencesofaCharacter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the user intput: ");
-		String userInput = sc.nextLine();
-		int original_Count = userInput.length();
-		System.out.println("Original String is : " + userInput);
-		String ReplaceString = userInput.replace("a", "");
-		int replace_count = ReplaceString.length();
-		System.out.println("Replace String is : " + ReplaceString);
-		int c = original_Count - replace_count;
-		System.out.println(c);
-
+		System.out.println("Enter the String: ");
+		String userinput = sc.nextLine().toLowerCase();
+		int originalCount = userinput.length();
+		System.out.println("Original string is: " + userinput);
+		System.out.println("Original String count is : " + originalCount);
+		String replaceString = userinput.replace("a", "");
+		int replceCount = replaceString.length();
+		System.out.println("Replace string is : " + replaceString);
+		System.out.println("replace string count is : " + replceCount);
+		int CountOccurrences = originalCount - replceCount;
+		System.out.println("originalCount - replceCount is :" + CountOccurrences);
 	}
 }

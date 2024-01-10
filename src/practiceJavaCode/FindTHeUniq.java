@@ -7,15 +7,14 @@ import java.util.Set;
 public class FindTHeUniq {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a string: ");
-		String userInput = sc.nextLine().toLowerCase();
-		Set<Character> uniqCharacters = new HashSet<>();
-		for (char c : userInput.toCharArray()) {
-			if (Character.isLetter(c))
-				uniqCharacters.add(c);
-		}
-		System.out.println(uniqCharacters);
+		System.out.println("Enter the String: ");
+		String userinput = sc.nextLine().toLowerCase();
+		Set<Character> uniqcharecter = new HashSet<>();
+		for (char c : userinput.toCharArray())
+			if (Character.isLetter(c)) {
+				uniqcharecter.add(c);
+			}
+		System.out.println(uniqcharecter);
 	}
 }
