@@ -9,8 +9,8 @@ public class FirstRepeatedCharecter {
 		System.out.println("Enter the UserInput: ");
 		String UserInput = sc.nextLine().toLowerCase();
 		for (char c : UserInput.toCharArray()) {
-			if (UserInput.indexOf(c) != UserInput.lastIndexOf(c)) {
-				System.out.println("First repeated charecter is : " + c);
+			if (UserInput.indexOf(c) == UserInput.lastIndexOf(c)) {
+				System.out.println("first non repeated charecter is : " + c);
 			}
 		}
 	}

@@ -13,6 +13,6 @@ public class FindUniqLatter {
 		for (char c : UserInput.toCharArray())
 			if (Character.isLetter(c))
 				uniq.add(c);
-		System.out.println(uniq);
+		System.out.println("String with duplicates removed:" + uniq);
 	}
 }
