@@ -10,7 +10,7 @@ public class NoRepeatedCharecter {
 		String UserInput=sc.nextLine().toLowerCase();
 		for(char c:UserInput.toCharArray()) {
 			if(UserInput.indexOf(c)==UserInput.lastIndexOf(c)) {
-				System.out.println("First Non Repeated Character is: "+c);
+				System.out.println("First Non Repeated letters:" +c);
 			}
 		}
 	}

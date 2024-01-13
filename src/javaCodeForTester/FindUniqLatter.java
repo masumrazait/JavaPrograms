@@ -11,8 +11,9 @@ public class FindUniqLatter {
 		String UserInput = sc.nextLine().toLowerCase();
 		Set<Character> uniq = new HashSet<>();
 		for (char c : UserInput.toCharArray())
-			if (Character.isLetter(c))
+			if (Character.isLetter(c)) {
 				uniq.add(c);
-		System.out.println("String with duplicates removed:" + uniq);
+			}
+		System.out.println(uniq);
 	}
 }
