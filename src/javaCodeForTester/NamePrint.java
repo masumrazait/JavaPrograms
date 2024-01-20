@@ -8,7 +8,7 @@ public class NamePrint {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the UserInput: ");
-		String UserInput = sc.nextLine();
+		String UserInput = sc.nextLine().toLowerCase();
 		String rev = "";
 		int len = UserInput.length();
 		for (int i = len - 1; i >= 0; i--) {

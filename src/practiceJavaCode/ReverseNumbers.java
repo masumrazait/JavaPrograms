@@ -11,17 +11,17 @@ public class ReverseNumbers {
 		int num=sc.nextInt();
 		
 		//1st Way
-		/*int rev=0;
+		int rev=0;
 		while(num!=0) {
 			rev=rev*10+num%10;
 			num=num/10;
 		}
-		System.out.println("Reverse num is:"+rev);*/
+		System.out.println("Reverse num is:"+rev);
 		
 		//2nd way
-		StringBuffer a=new StringBuffer(String.valueOf(num));
+		/*StringBuffer a=new StringBuffer(String.valueOf(num));
 		StringBuffer rev=a.reverse();
-		System.out.println("Reverse num is:"+rev);
+		System.out.println("Reverse num is:"+rev);*/
 
 	}
 
