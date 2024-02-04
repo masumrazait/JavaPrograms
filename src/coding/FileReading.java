@@ -1,16 +1,23 @@
 package coding;
 
-import java.io.FileInputStream;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class FileReading {
 
-	public static void main(String[] args) {
-		String file="./TestData/data.xlsx";
-		FileInputStream fis= new FileInputStream(file);
-		XSSWorkbook workbook=new XSSWorkbook(fis);
-		XSSSheet sheet=workbook.getSheetAt(0)
-		
-
+	public static void main(String[] args) throws IOException {
+		File f = new File("./TestData/Masum.txt");
+		FileWriter fw = new FileWriter(f, true);
+		BufferedWriter writer = new BufferedWriter(fw);
+		writer.write("Masum Raza");
+		writer.newLine();
+		writer.write("Lakshmi Raza");
+		writer.newLine();
+		writer.write("Sonu Raza");
+		writer.newLine();
+		writer.close();
+		System.out.println("File Created!!!");
 	}
-
 }
