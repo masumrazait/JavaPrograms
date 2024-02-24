@@ -9,7 +9,9 @@ public class AddWithSca {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the num");
 		int num = sc.nextInt();
-		System.out.println(sc);
+		int sa = sc.nextInt();
+		int s = Math.max(sa, num);
+		System.out.println("greater number is : " + s);
 
 	}
 
