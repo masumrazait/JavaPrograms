@@ -16,6 +16,5 @@ public class CountOccurrencesofaCharacter {
 		System.out.println("Original String and String count:" + replaceStr + ":" + replaceCount);
 		int CountOccurrencesofaCharacter = originalCount - replaceCount;
 		System.out.println("CountOccurrencesofaCharacter : " + CountOccurrencesofaCharacter);
-
 	}
 }
