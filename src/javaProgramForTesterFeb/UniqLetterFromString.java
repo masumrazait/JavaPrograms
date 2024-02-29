@@ -12,6 +12,6 @@ public class UniqLetterFromString {
 			if (Character.isLetter(c)) {
 				uniq.add(c);
 			}
-		System.out.println("uniq letter is : " + uniq);
+		System.out.println(uniq);
 	}
 }
