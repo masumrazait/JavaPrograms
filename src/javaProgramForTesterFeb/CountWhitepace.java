@@ -1,7 +1,6 @@
 package javaProgramForTesterFeb;
 
 public class CountWhitepace {
-
 	public static void main(String[] args) {
 		String input = "Masum       raza";
 		int count = 0;
