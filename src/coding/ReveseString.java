@@ -14,8 +14,8 @@ public class ReveseString {
 		for (int i = len - 1; i >= 0; i--) {
 			rev = rev + UserInput.charAt(i);
 		}
-		if (Original.equalsIgnoreCase(rev)) {
-			System.out.println("string is palindorom :" + Original);
+		if (UserInput.equalsIgnoreCase(rev)) {
+			System.out.println("string is palindorom :" + UserInput);
 		} else {
 			System.out.println("String is not palindrome: " + rev);
 		}
