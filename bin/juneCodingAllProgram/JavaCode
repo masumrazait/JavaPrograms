@@ -1,0 +1,116 @@
+Even Letter Print From String
+Extract Special Character From String
+Factorial
+Fibonnacci Series
+Greater Number In Array
+Index Position OF Alphabet
+Leap Year NonLeap Year In Array
+Non Repeating Character
+Odd And Even From Array
+Remove Duplicate Character
+Reverse Number
+Revers String
+Smallest Number In Array
+Two different String Comparison
+Upper Case Count In String
+Vowel Count
+White Space Count
+Word Count In String
+
+Topics to study
+=============Manual testing Functional Testing VVI==================
+Types Of Testing 
+White Box
+Black Box
+Gray Box
+Unit Testing
+Integrating Testing
+System Testing 
+Acceptance Testing
+Regression Testing
+ReTesting 
+Smoke Testing
+Sanity Testing
+Adhoc Testing
+Monkey Testing
+RTM Matrics 
+Test Plan
+Test Strategy
+What is bug leakage and bug release?
+
+--------Not VVI-Manual
+Static Testing
+Dynamic Testing
+Negative Testing
+Positive Testing
+Alpha Testing
+Beta Testing
+Globalization Testing
+Exploratory Testing
+
+
+---------------Agile-------------------------
+SDLC & STLC
+What is agile 
+BurnUp vs BurnDown
+Agile Cerimony
+SprintBacklog vs Product Backlog
+Epic UserStory Task
+Agile 12 Principal
+
+---------------------Automation---------------
+What is Selenium And Explain Archtecture
+Xpath 
+Relative Vs Absulute Xpath (Single / and Double //)
+Synchronization (Wait Implicite wait vs Explicite Wait , Fluent Wait)
+DropDown
+Action Class
+TakeScreenShot
+Alert (Web Popup)
+JavascriptExecutor
+Window Handle(muliple Window)
+Closed/Quit
+Authentication Popup website
+Navigation (all method)
+GetUrl/Navigate,url
+
+
+---------Page Object Model----------
+Page Factory (write code & Theory)
+POM vs Page Factory
+
+-------------------Java Theory-----------
+Public Private protacted
+Final Finally Finalize
+Abstract class vs InterFace
+SuperKey word
+ThisKey Word
+Throw vs Throws
+Overloading vs Overiding
+== vs Equal
+Collection vs Collections
+Static Variable & Method
+Constructor (Default vs Parametrized)
+CheckException vs Unchecked Exception
+Opps Cocept all four
+
+-------------Java Program---------------
+ReverseString
+ReverseNumber
+Remove SpecialCharacter in String
+LeapYear or Common year
+Remove Duplicate Character from String 
+Print non-repeated letter in string 
+Find the Vowel in String
+Find the greater number in array
+Find the smallest number in array
+find the odd even in array
+find the latter position in string 
+
+
+---------TestNG--------------
+What is TestNG
+Tell me Anotation in TestNG in orderway
+How to run same testCase run multiple time 
+TestNG Groups 
+DataProvider
