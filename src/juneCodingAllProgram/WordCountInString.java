@@ -9,7 +9,7 @@ public class WordCountInString {
 		Scanner sd = new Scanner(System.in);
 		System.out.println("Enter the String : ");
 		String str = sd.nextLine();
-		int count = 0;
+		int count = 1;
 		for (int i = 1; i < str.length(); i++) {
 			if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' ')) {
 				count++;
