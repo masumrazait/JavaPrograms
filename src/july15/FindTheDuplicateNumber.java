@@ -8,7 +8,7 @@ public class FindTheDuplicateNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int ar[] = { 12333, 2, 134, 53554, 747, 445, 43634, 7457, 8566, 346, 636, 636, 367, 36434, 643654, 8586, 235 };
-		String input = "Masum Raza".toLowerCase();
+		String input = "India Delhi".toLowerCase();
 		Set<Integer> duplicate = new HashSet<>();
 		Set<Integer> uniq = new HashSet<>();
 		for (int num : ar) {
