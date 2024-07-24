@@ -9,7 +9,7 @@ public class UpperCaseCountInString {
 		Scanner sd = new Scanner(System.in);
 		System.out.println("Enter the String : ");
 		String str = sd.nextLine();
-		int count = 1;
+		int count = 0;
 		for (int i = 1; i <= str.length() - 1; i++) {
 			char c = str.charAt(i);
 			if (Character.isUpperCase(c)) {
@@ -17,7 +17,5 @@ public class UpperCaseCountInString {
 			}
 		}
 		System.out.println(count);
-
 	}
-
 }

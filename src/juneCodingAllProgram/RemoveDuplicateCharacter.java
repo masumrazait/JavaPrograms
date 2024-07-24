@@ -6,7 +6,8 @@ import java.util.Set;
 public class RemoveDuplicateCharacter {
 
 	public static void main(String[] args) {
-		String str = "masum";
+		String str1 = "masum";
+		String str="ABCDD";
 		Set<Character> uniq = new HashSet<>();
 		for (char c : str.toCharArray()) {
 			if (Character.isLetter(c)) {
