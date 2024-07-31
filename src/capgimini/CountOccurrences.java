@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class CountOccurrences {
 	public static void main(String[] args) {
-		String str = "hello";
+		String str = "ABBCCCDDDDEEEEEFABC";
 		HashMap<Character, Integer> countMap = new HashMap<>();
 
 		for (char c : str.toCharArray()) {
