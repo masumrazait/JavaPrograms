@@ -1,4 +1,4 @@
-package Aug1;
+package August1;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,7 +7,7 @@ public class DuplicateWordFinder {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "masum,raza,masum,tata";
+		String str = "my,name,is,masum,raza,masum";
 		String[] word = str.split(",");
 		Set<String> uniqWord = new HashSet<>();
 		for (String words : word) {
@@ -16,6 +16,5 @@ public class DuplicateWordFinder {
 		for (String words : uniqWord) {
 			System.out.println(words);
 		}
-
 	}
 }
