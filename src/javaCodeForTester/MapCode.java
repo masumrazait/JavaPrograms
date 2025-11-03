@@ -13,6 +13,7 @@ public class MapCode {
 		NameAge.put("Rohan", 28);
 		NameAge.put("Msm", 29);
 		NameAge.put("Mum", 21);
+		NameAge.put("B2", 216);
 		NameAge.put("B2", 26);
 		NameAge.put("Rahu", 24);
 		System.out.println("Key-Value pairs in the map:");
