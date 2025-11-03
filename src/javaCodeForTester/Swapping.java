@@ -9,9 +9,9 @@ public class Swapping {
 		int x = dc.nextInt();
 		int y = dc.nextInt();
 		System.out.println("before swapping the number " + x + " " + y);
-		x=x+y;
-		y=x-y;
-		x=x-y;
+		x = x + y;
+		y = x - y;
+		x = x - y;
 		System.out.println("after swapping the number " + x + " " + y);
 
 	}
