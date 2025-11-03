@@ -11,11 +11,10 @@ public class RightAngle {
 
 		// Outer loop for the number of rows
 		for (int i = 1; i <= rows; i++) {
-			for (int j = 1; j <= rows-i; j++) {
+			for (int j = 1; j <= rows - i; j++) {
 				System.out.print(" ");
 			}
-			for(int k=1;k<=i;k++)
-			{
+			for (int k = 1; k <= i; k++) {
 				System.out.print("* ");
 			}
 			System.out.println();
